@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 
 require_relative "boot"
 
+=======
+require_relative "boot"
+
+>>>>>>> master
 require "rails/all"
 
 # Require the gems listed in Gemfile, including any gems
