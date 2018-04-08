@@ -28,6 +28,13 @@ en:
           title: "Sample App"
           phome_1: "This is the home page for the"
           phome_2: "sample application."
+<<<<<<< HEAD
+
+      layouts:
+        application:
+          title: "| Ruby on Rails Tutorial Sample App"
+=======
       layouts:
         application:
           title: "Ruby on Rails Tutorial Sample App"
+>>>>>>> master
