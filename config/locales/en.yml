@@ -26,6 +26,11 @@ en:
 
         home:
           title: "Sample App"
+          phome_1: "This is the home page for the"
+          phome_2: "sample application."
+      layouts:
+        application:
+          title: "| Ruby on Rails Tutorial Sample App"
           title1: "Welcome to the Sample App"
           phome_1: "This is the home page for the"
           phome_2: "sample application."

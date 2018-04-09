@@ -34,11 +34,8 @@ gem "rubocop", "~> 0.54.0", require: false
 # Use Capistrano for deployment
 # gem "capistrano-rails", group: :development
 gem "rails-i18n"
-
 gem "activeresource"
-
 gem "sprockets-rails"
-
 gem "rails-controller-testing"
 
 group :development, :test do
