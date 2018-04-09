@@ -3,6 +3,7 @@
 <html>
   <head>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <title><%= full_title(yield(:title)) %>  | <%= t "layouts.application.title" %></title>
 =======
     <title><%= yield(:title) %> | <%= t "layouts.application.title" %></title>
@@ -10,9 +11,19 @@
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
+=======
+    <title><%= full_title(yield(:title)) %>  | <%= t "layouts.application.title" %></title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
+    <%= render "layouts/shim" %>
+>>>>>>> chapter_5
   </head>
-
-  <body>
-    <%= yield %>
+<body>
+    <%= render "layouts/header" %>
+    <div class="container">
+      <%= yield %>
+    <%= render "layouts/footer" %>
+    </div>
   </body>
 </html>

@@ -26,6 +26,7 @@ en:
 
         home:
           title: "Sample App"
+<<<<<<< HEAD
           phome_1: "This is the home page for the"
           phome_2: "sample application."
 <<<<<<< HEAD
@@ -38,3 +39,22 @@ en:
         application:
           title: "Ruby on Rails Tutorial Sample App"
 >>>>>>> master
+=======
+          title1: "Welcome to the Sample App"
+          phome_1: "This is the home page for the"
+          phome_2: "sample application."
+          homepage_link: "Ruby on Rails Tutorial"
+          singn_link: "Sign up now!"
+          phome_3: "This is the home page for the"
+          phome_4: "sample application."
+
+      layouts:
+        application:
+          title: "Ruby on Rails Tutorial Sample App"
+        login:
+          title: "Log in"
+      users:
+        new:
+          title: "Sign up"
+          pnew: "This will be a signup page for new users."
+>>>>>>> chapter_5
